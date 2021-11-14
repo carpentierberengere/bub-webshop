@@ -1,51 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" sizes="16x16" href="./assets/fav-bubs.png">
-        <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
-        <link href="./main.css" rel="stylesheet" />
-        <title>BUB'S Y2K</title>
-    </head>
-    <header>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="#">
-                    <img src="./assets/fav-bubs.png">
-                </a>
 
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/fav-bubs.png">
+    <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+    <link href="./main.css" rel="stylesheet" />
+    <title>BUB'S Y2K</title>
+</head>
+<header>
+    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <img src="./assets/fav-bubs.png">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-end">
+                <a href="#" class="navbar-item">New Arrivals</a>
+                <a href="#" class="navbar-item">Clothing</a>
+                <a href="#" class="navbar-item">Accessories</a>
+                <a href="#" class="navbar-item">Beauty</a>
+                <a href="#" class="navbar-item"><i class="fas fa-shopping-bag"></i></a>
             </div>
-            <div class="navbar-menu" id="navMenu">
-                <div class="navbar-end">
-                    <a href="#" class="navbar-item">New Arrivals</a>
-                    <a href="#" class="navbar-item">Clothing</a>
-                    <a href="#" class="navbar-item">Accessories</a>
-                    <a href="#" class="navbar-item">Beauty</a>
-                    <a href="#" class="navbar-item"><i class="fas fa-shopping-bag"></i></a>
-                </div>
-                
-            </div>
-        </nav>
-    </header>
-    <body>
-        <!---HERO SECTION--->
-        <section class="hero">
-            <div class="hero-image">
+
+        </div>
+    </nav>
+</header>
+
+<body>
+    <!---HERO SECTION--->
+    <section class="hero">
+        <div class="hero-image">
+            <figure>
+                <img class="hero-img" src="./assets/bubs.png">
+            </figure>
+            <h1 class="hero-title">fashion that favours the bold</h1>
+        </div>
+        <div class="columns is-mobile">
+            <div class="column is-third">
                 <figure>
-                    <img class="hero-img" src="./assets/bubs.png">
+                    <img class="pink-img" src="assets/img-1.png">
                 </figure>
-                <h1 class="hero-title">fashion that favours the bold</h1>
             </div>
-        </section>
+            <div class="column is-third">
+                <figure>
+                    <img class="pink-img" src="assets/img-3.png">
+                </figure>
+            </div>
+            <div class="column is-third">
+                <figure>
+                    <img class="pink-img" src="assets/img-2.png">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!----LATEST TRENDS SECTION-->
+    <section class="trends">
+        <div class="trends-title">
+            <h1>Latest Trends</h1>
+        </div>
+        <div id="container">
+            <div id="toggleContainer">
+                <label>slide</label>
+                <div id="toggle">
+                    <div id="outer3">
+                        <div id="slider3"></div>
+                    </div>
+                    <label>all</label>
+                </div>
+            </div>
+            <div id="galleryView">
+                <div id="galleryContainer">
+                    <div id="leftView"></div>
+                    <button id="navLeft" class="navBtns"><i class="fas fa-arrow-left fa-3x"></i></button>
+                    <a id="linkTag">
+                        <div id="mainView"></div>
+                    </a>
+                    <div id="rightView"></div>
+                    <button id="navRight" class="navBtns"><i class="fas fa-arrow-right fa-3x"></i></button>
+                </div>
+            </div>
+            <div id="tilesView">
+                <div id="tilesContainer"></div>
+            </div>
+        </div>
+    </section>
 
 
 
-        <script src="./nav.js"></script>
-    </body>
+    <script src="./nav.js"></script>
+    <script src="carousel.js"></script>
+</body>
+
 </html>
