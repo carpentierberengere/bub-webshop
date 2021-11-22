@@ -10,5 +10,7 @@ As this project is to show my design and UI/UX skills, there won't be many featu
 - ...  
 
 Other than the web features, I will also have to show how I view brand creation, with the design part, so brand design board, logo creation and overall style. 
+
+https://carpentierberengere.github.io/bub-webshop/
  
 
