@@ -4,6 +4,8 @@
 
 html{
     background-color:black;
+    margin:o;
+    padding:o;
 }
 
 /*HEADER*/
@@ -259,3 +261,17 @@ label{
     z-index: 1;
     box-sizing: border-box;
   }
+
+/*NEW ARRIVALS SECTION*/
+.arrivals-sub{
+  color:#FF2FAC;
+    font-family: 'Righteous', cursive;
+    letter-spacing:-4.5px;
+    font-size:50px;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.styleOne{
+  margin-right:6%;
+}
