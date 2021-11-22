@@ -263,6 +263,9 @@ label{
   }
 
 /*NEW ARRIVALS SECTION*/
+.new-arrivals{
+  margin-top:5%;
+}
 .arrivals-sub{
   color:#FF2FAC;
     font-family: 'Righteous', cursive;
